@@ -1,0 +1,172 @@
+body{
+    background-color: #f6f6f6f6;
+  margin-bottom: 200px;
+}
+.BOX{
+   
+    color: #00b894;
+    border-radius: 15px;
+    margin-top:100px ;
+    box-shadow: 4px 4px 4px #dfe6e9,-4px -4px 4px #dfe6e9;
+    margin-bottom: 200px;
+    position: relative;
+    height: 560px;
+    
+}
+.signup{
+  
+}
+.signin{
+    z-index: 10000;
+    position: absolute;
+   
+    top: 0;
+    left: 0;
+    background: #fff;
+    width: 100%;
+
+    
+}
+
+.first{
+   background-color:#00b894 ;
+   color: white;
+   text-align: center;
+   justify-content: center;
+ 
+}
+.first h1 {
+    margin: auto;
+    text-align: center;
+
+}
+.first p {
+    margin: auto;
+    text-align: center;
+     margin-top: 20px;
+     font-size: 17px;
+}
+.first button{
+    background-color: transparent;
+    margin: auto;
+    width: 150px;
+    border: 1px solid white;
+    text-align: center;
+    /*margin-left: 110px;*/
+    border-radius: 14px;
+    height: 35px;
+    color: white;margin-top: 100px;
+
+}
+.collection1{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.second{
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.second h1{
+   padding-bottom: 15px;
+}
+/*collecton 2 */
+.collection2 i {
+ color: black;
+ border: .5px solid #aaa;
+ padding: 15px;
+ margin: 10px;
+ border-radius: 50%;
+ 
+}
+.second p {
+    padding: 10px;
+    color: #aaa;
+}
+.collection2 i:hover{
+  color: #00b894;
+  border: .5px solid #00b894;
+  padding: 15px;
+ margin: 10px;
+ border-radius: 50%;
+
+}
+.second button{
+    background-color: #00b894;
+    margin: auto;
+    width: 150px;
+    border: 1px solid white;
+    text-align: center;
+    /*margin-left: 110px;*/
+    border-radius: 14px;
+    height: 40px;
+    color: white;
+    margin-top: 20px;
+    /*margin-top: 100px;*/
+}
+/* inputs*/
+input {
+    width: 50%;
+    border: 1px solid #aaa;
+    border-radius: 1px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: .3s;
+    position: relative;
+    background-color: #dfe6e9;
+    padding-left: 40px;
+    color: black;
+}
+input:focus {
+    border-color: #00b894;
+    box-shadow:  0 0 8px 0 #00b894;
+
+}
+.inputs i {
+    color: #aaa;
+    text-align: start;
+    justify-content: start;
+    position: absolute;
+    transition: .3s;
+    
+
+}
+.inputs i:focus{
+  color: #00b894;
+  box-shadow:  0 0 8px 0 #00b894;
+}
+.inputs .icon1{
+    left: 28%;
+    top: 52%;
+}
+.inputs .icon2{
+    top: 65%;
+    left: 28%;
+}
+.inputs .icon3{
+    top: 78%;
+    left: 28%;
+}
+/* animaton*/
+.signini2{
+    top: 75%;
+    left: 28%;
+
+}
+.signini1{
+    top: 60%;
+    left: 28%;
+}
+/*    z-index: 10000000;
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    background: #fff;
+    width: 100%;
+}*/
+.togglee{
+    display: none;
+}

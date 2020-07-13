@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        
+        <meta http-equiv="X-UA-Compatiable" content="ie=edge">
+       <link rel="stylesheet" href="css/bootstrap.min.css">
+       <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/register.component.css">
+
+        
+    </head>
+    <body>
+        <div class="container">
+            <form>
+                <!-- SIGN UP -->
+              <div class="row BOX"  >  
+                  <div class="signup " [@signstate2]='state'  >
+                  <div class="col-md-5 first">
+                      <div class="collection1">
+                        <h1>Welcome Backe!</h1>
+                        <p> to Keep Conected with us <br> Please Sign with your email</p>
+                       <button (click)="onanimate()" class="toggle"  type="button">Sign in</button>
+                      </div>
+        
+                  </div>
+                  <div class="col-md-7 second">
+                      <div class="collection2">
+                          <h1>Create Acount</h1>
+                          <i class="fa fa-facebook-f"></i>
+                          <i class="fa fa-google-plus"></i>
+                          <i class="fa fa-linkedin"></i>
+                      </div>
+                      <p>Our use your email for registration</p>
+                      <div class="inputs">
+                          <input class="input" placeholder='User Name'>
+                          <br>
+                          <i class="fa fa-user icon1"></i>
+                          <input class="input" placeholder='E-mail'>
+                          <br>
+                          <i class="fa fa-envelope-square icon2"></i>
+                          <input class="input" placeholder='Password' type="password">
+                          <br>
+                          <i class="fa fa-key icon3"></i>
+        
+                      </div>
+                      <button >SIGN UP</button>
+                  </div>
+                </div>
+                 <!-- END SIGN UP -->
+                 <!--sign in-->
+                 <div class="signin sign"  [@signstate2]='state' [@signstate]='state' >
+                    
+                    <div class="col-md-7 second">
+                        <div class="collection2">
+                            <h1>Sign In </h1>
+                            <i class="fa fa-facebook-f"></i>
+                            <i class="fa fa-google-plus"></i>
+                            <i class="fa fa-linkedin"></i>
+                        </div>
+                        <p>Our use your email for registration</p>
+                        <div class="inputs">
+                           
+                            
+                            <input class="input" placeholder='E-mail'>
+                            <br>
+                            <i class="fa fa-envelope-square  signini1"></i>
+                            <input class="input" placeholder='Password' type="password">
+                            <br>
+                            <i class="fa fa-key  signini2"></i>
+          
+                        </div>
+                        <button type="button"  >SIGN IN</button>
+                    </div>
+                    <div class="col-md-5 first">
+                        <div class="collection1">
+                          <h1>Hello freind!</h1>
+                          <p> enter your persolnal id <br> Please Sign with your email</p>
+                          <button class="toggle"  type="button" (click)="onanimate()">Sign UP</button>
+                        </div>
+          
+                    </div>
+                  </div>
+                  <!--end sign in-->
+              </div>
+              
+            </form>
+        </div>
+        
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script>
+        
+        <script src="js/bootstrap.min.js"></script>
+        <script>
+           $(".toggle").click(function(){
+  $("sign").toggleClass("togglee");
+});
+$(".toggle").click(function(){
+  $("sign").toggleClass("togglee");
+});
+        </script>
+    </body>
+</html>
