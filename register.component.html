@@ -6,6 +6,8 @@
         <meta http-equiv="X-UA-Compatiable" content="ie=edge">
        <link rel="stylesheet" href="css/bootstrap.min.css">
        <link rel="stylesheet" href="css/font-awesome.min.css">
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         <link rel="stylesheet" href="css/register.component.css">
 
         
@@ -15,12 +17,12 @@
             <form>
                 <!-- SIGN UP -->
               <div class="row BOX"  >  
-                  <div class="signup " [@signstate2]='state'  >
+                  <div class="signup  up"   >
                   <div class="col-md-5 first">
                       <div class="collection1">
                         <h1>Welcome Backe!</h1>
                         <p> to Keep Conected with us <br> Please Sign with your email</p>
-                       <button (click)="onanimate()" class="toggle"  type="button">Sign in</button>
+                       <button (click)="onanimate()" class="toggler"  type="button">Sign in</button>
                       </div>
         
                   </div>
@@ -49,7 +51,7 @@
                 </div>
                  <!-- END SIGN UP -->
                  <!--sign in-->
-                 <div class="signin sign"  [@signstate2]='state' [@signstate]='state' >
+                 <div class="signin in"  >
                     
                     <div class="col-md-7 second">
                         <div class="collection2">
@@ -76,7 +78,7 @@
                         <div class="collection1">
                           <h1>Hello freind!</h1>
                           <p> enter your persolnal id <br> Please Sign with your email</p>
-                          <button class="toggle"  type="button" (click)="onanimate()">Sign UP</button>
+                          <button class="toggler"  type="button" (click)="onanimate()">Sign UP</button>
                         </div>
           
                     </div>
@@ -88,16 +90,20 @@
         </div>
         
         
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script>
+      <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script> -->
+      <script src="js/jquery.js"></script>
         
         <script src="js/bootstrap.min.js"></script>
         <script>
-           $(".toggle").click(function(){
-  $("sign").toggleClass("togglee");
-});
-$(".toggle").click(function(){
-  $("sign").toggleClass("togglee");
-});
+              $( function() {
+    $( ".toggler" ).click (function() {
+       
+      
+      $( ".up" ).toggleClass( "state2", 5000 );
+      $( ".in" ).toggleClass( "state", 5000 );
+     
+    });
+  } );
         </script>
     </body>
 </html>
