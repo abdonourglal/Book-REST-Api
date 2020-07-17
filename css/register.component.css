@@ -79,6 +79,9 @@ body{
  border-radius: 50%;
  
 }
+ .h11{
+    margin-top: -50px;
+}
 .second p {
     padding: 10px;
     color: #aaa;
@@ -139,16 +142,21 @@ input:focus {
 }
 .inputs .icon1{
     left: 28%;
-    top: 52%;
+    top: 33%
 }
 .inputs .icon2{
-    top: 65%;
+    top: 46%;
     left: 28%;
 }
 .inputs .icon3{
-    top: 78%;
+    top: 58%;
     left: 28%;
 }
+.inputs .icon4{
+    top: 74%;
+    left: 28%;
+}
+
 /* animaton*/
 .signini2{
     top: 75%;
@@ -181,4 +189,14 @@ input:focus {
 *{
     transition: .7s ease-in-out;
     transform-origin: center;
+}
+.select {
+    padding: 0;
+    margin: 0;
+    width: 30px;
+    border-radius: 50%;
+}
+label{
+    margin: 0;
+    padding: 0;
 }
